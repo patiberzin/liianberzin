@@ -20,19 +20,19 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -60px; /* Puxa a seção para cima, sobrepondo a imagem na barra */
-  position: relative; /* Necessário para z-index da imagem */
-  z-index: 1; /* Garante que a imagem fique acima da barra */
+  margin-top: -60px;
+  position: relative; 
+  z-index: 1; 
 }
 
 .img-titles img {
-  width: 130px; /* Ajuste para o tamanho da imagem redonda */
-  height: 130px; /* Ajuste para o tamanho da imagem redonda */
-  border-radius: 50%; /* Torna a imagem redonda */
+  width: 130px; 
+  height: 130px;
+  border-radius: 50%; 
   object-fit: cover; /* Garante que a imagem preencha o círculo */
   border: 4px solid #ffffff; /* Borda branca ao redor da imagem */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  margin-bottom: 15px; /* Espaço abaixo da imagem */
+  margin-bottom: 15px; 
 }
 
 .img-titles h2 {
@@ -235,11 +235,11 @@ body {
     padding: 28px;
   }
   .img-titles {
-    margin-top: -50px; /* Ajuste para telas menores */
+    margin-top: -50px; 
   }
   .img-titles img {
-    width: 110px; /* Ajuste para telas menores */
-    height: 110px; /* Ajuste para telas menores */
+    width: 110px; 
+    height: 110px; 
   }
   .img-titles h2 {
     font-size: 2.3em;
